@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="wps"
+      label="Wps Viewer"
+      version="1.0.0.qualifier"
+      provider-name="NoisPlanet">
+
+   <description url="https://noise-planet.org/">
+   </description>
+
+   <copyright url="https://www.gnu.org/licenses/lgpl-3.0.html">
+   </copyright>
+
+   <license url="https://www.gnu.org/licenses/lgpl-3.0.html">
+   </license>
+
+   <url>
+      <update label="NoisPlanet" url="https://noise-planet.org/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+   </requires>
+
+   <plugin
+           id="org.noiseplanet.noisemodelling.wps"
+           download-size="0"
+           install-size="0"
+           version="0.0.0"/>
+
+</feature>

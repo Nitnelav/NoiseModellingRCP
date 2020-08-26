@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="NoisePlanet Eclipse repository" url="https://noise-planet.org/eclipse-repo">
+      DBeaver Update Site
+   </description>
+   <feature url="features/wps_1.0.0.qualifier.jar" id="wps" version="1.0.0.qualifier">
+      <category name="org.noiseplanet.noisemodelling.rcp"/>
+   </feature>
+   <category-def name="org.noiseplanet.noisemodelling.rcp" label="NoisePlanet"/>
+</site>
